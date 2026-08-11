@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANITS Clone</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/*---------------- TOP BAR ----------------*/
+
+.top-bar{
+background:#08192d;
+color:white;
+display:flex;
+justify-content:center;
+gap:35px;
+padding:8px;
+font-size:12px;
+font-weight:bold;
+}
+.header{
+    background:white;
+    display:flex;
+    justify-content:flex-start; /* Instead of space-between */
+    align-items:center;
+    gap:40px;                   /* Space between title and badges */
+    padding:15px 30px;
+}
+/* Logo */
+
+.logo{
+    display:flex;
+    align-items:center;
+    margin-left:290px;   /* Reduce from 200px */
+}
+
+.logo img{
+width:65px;
+margin-right:35px;
+}
+
+/* College Title */
+
+.title{
+display:flex;
+align-items:baseline;
+gap:8px;
+}
+
+.title h3{
+font-size:20px;
+font-weight:bold;
+color:#ef5a00;
+white-space:nowrap;
+}
+
+.title .auto{
+font-size:12px;
+font-weight:bold;
+color:#ef5a00;
+}
+
+/* Right Side */
+
+.right-section{
+    display:flex;
+    align-items:center;
+    gap:15px;           /* Small gap between badges and contact */
+    margin-right:20px;
+}
+
+.badges{
+    display:flex;
+    align-items:center;
+    gap:8px;            /* Space between the two logos */
+}
+
+.badges img{
+    width:60px;
+    height:auto;
+    margin:0;
+}
+.contact{
+background:#2c73b6;
+color:white;
+padding:12px 20px;
+border-radius:10px;
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:bold;
+}
+.contact i{
+font-size:30px;
+}
+.contact h2{
+font-size:18px;
+}
+nav{
+background:linear-gradient(to right,#1d3d74,#3d96d8);
+}
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+nav ul li{
+position:relative;
+}
+nav ul li a{
+display:block;
+padding:18px 22px;
+text-decoration:none;
+color:white;
+font-size:12px;
+font-weight:bold;
+}
+nav ul li:hover{
+background:#0d4e86;
+}
+nav ul li ul{
+display:none;
+position:absolute;
+top:100%;
+left:0;
+background:white;
+min-width:220px;
+list-style:none;
+box-shadow:0 5px 10px rgba(0,0,0,.2);
+}
+nav ul li:hover ul{
+display:block;
+}
+nav ul li ul li a{
+color:black;
+padding:6px;
+font-size:6px;
+}
+.notice{
+background:white;
+padding:12px;
+font-size:20px;
+font-weight:bold;
+color:#103f92;
+}
+.linkedin{background:#0077b5;}
+.instagram{background:#e1306c;}
+.facebook{background:#1877f2;}
+.twitter{background:black;}
+.youtube{background:red;}
+.whatsapp{background:#25d366;}
+.hero img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    display:block;
+}
+.social-icons{
+    position:fixed;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    z-index:9999;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:22px;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    transform:scale(1.15);
+}
+
+.linkedin{background:#0077b5;}
+.instagram{background:#E1306C;}
+.facebook{background:#1877F2;}
+.twitter{background:#000;}
+.youtube{background:#FF0000;}
+.whatsapp{background:#25D366;}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+
+<span>College Code : <b>ANIL</b></span>
+
+<span>Email : principal@anits.edu.in</span>
+
+<span>8712005999,7330789893,8712008222 (Admissions)</span>
+
+<span>IIC</span>
+
+<span>E-Learning</span>
+
+</div>
+
+<div class="header">
+
+<div class="logo">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIfWIP8R-EjO2EMWBbwhWpQrYzeDMqknb-IZJYhJhSw&s=10">
+<div class="title">
+
+<h3>ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY & SCIENCES</h3>
+
+<span class="auto">(AUTONOMOUS)</span>
+
+</div>
+
+</div>
+
+<div class="right-section">
+
+<div class="badges">
+
+<img src="https://anits.org/static/images/auto.webp">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFwx74kCBbDs5PqsFg8p3zgA_R0Z2z1MkRzcV2VjJzow&s=10">
+
+</div>
+
+<div class="contact">
+
+<i class="fa-solid fa-phone"></i>
+
+<div>
+
+Admissions Contact
+
+<h2>8712005999</h2>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li>
+<a href="#">About Us</a>
+
+<ul>
+<li><a href="#">Vision</a></li>
+<li><a href="#">Mission</a></li>
+<li><a href="#">Principal</a></li>
+<li><a href="#">Management</a></li>
+</ul>
+
+</li>
+
+<li><a href="#">Admissions</a></li>
+<li><a href="#">Academics</a></li>
+<li><a href="#">Departments</a></li>
+<li><a href="#">R&D</a></li>
+<li><a href="#">IQAC</a></li>
+<li><a href="#">Women Cell</a></li>
+<li><a href="#">Policies</a></li>
+<li><a href="#">Library</a></li>
+<li><a href="#">Training</a></li>
+<li><a href="#">Placements</a></li>
+<li><a href="#">Facilities</a></li>
+
+</ul>
+
+</nav>
+
+<div class="notice">
+
+<marquee>
+
+📢 Submission Deadline : 30-04-2026 |
+📢 JRF Recruitment – Department of ECE |
+📢 Minor Degree in Quantum Technologies |
+📢 Bus Incharges & Schedule Details
+
+</marquee>
+
+</div>
+
+<div class="hero">
+
+<img src="https://anits.org/media/jrcollege/slides/slide2_2_YZSPSoq_DrN5pxS.png" alt="College" height="500" width="1500">
+
+</div>
+<div class="dots">
+    <span class=""active"></span>
+    <span></span>
+    <span></span>
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+</div>
+
+<section class="welcome">
+ 
+</div>
+</section>
+
+<!-- About Section -->
+  <style>
+    .dots{
+        text-align:center;
+        margin:15px 0;
+    }
+
+    .dots span{
+        display:inline-block;
+        width:12px;
+        height:12px;
+        background:#d3d3d3;
+        border-radius:50%;
+        margin:0 6px;
+    }
+
+    .dots .active{
+        background:blue;
+    }
+    </style>
+
+<section style="padding:60px;background:white;">
+
+<h2 style="text-align:center;color:#14386f;font-size:38px;">
+Welcome to ANITS
+</h2>
+
+<p style="font-size:20px;line-height:1.8;margin-top:25px;text-align:justify;">
+
+Anil Neerukonda Institute of Technology & Sciences (ANITS), Visakhapatnam is owned by Megha Engineering and Infrastructure Limited (MEIL) which is one of the top infrastructure and manufacturing company in India with headquarters at Hyderabad. The institute was established in the academic year 2001-02 by Anil Neerukonda Educational Society (ANES) which was founded by Dr. N.B.R. Prasad, an NRI Philanthropist from the USA, with industrialists and eminent educationists in memory of his son Late Anil Neerukonda.
+
+</p>
+
+</section>
+<div class="social-icons">
+    <a href="https://www.linkedin.com" class="linkedin" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://www.instagram.com" class="instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com" class="facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="https://twitter.com" class="twitter" target="_blank">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+    <a href="https://www.youtube.com" class="youtube" target="_blank">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+    <a href="https://wa.me/918712005999" class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+
+</body>
+</html>
